@@ -110,7 +110,7 @@ export class MyApp extends LitElement {
         <p class="info">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
       
         <div class="song-info">
-          <img class="song-info-icon" src="./src/assets/images/icon-music.svg" alt="music-icon" />
+          <img class="song-info-icon" src="https://res.cloudinary.com/duzyd4ju7/image/upload/v1699246906/icon-music_e7sqcz.svg" alt="music-icon" />
           <div class="song-info-price">
             <p>Annual Plan</p>
             <p >$59.99/year</p>
