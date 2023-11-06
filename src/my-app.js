@@ -102,6 +102,13 @@ export class MyApp extends LitElement {
 
       }
 
+      @media screen and (max-height: 585px) {
+        :host {
+          width: 40%;
+        }
+
+      }
+
     `
   ];
 
