@@ -20,8 +20,8 @@
   /* ### Neutral */
 
   --Very-pale-blue: #f5f7ff;
-  --Desaturated-blue: hsl(224, 23%, 55%);
-  --Dark-blue: hsl(223, 47%, 23%);
+  --Desaturated-blue: #7280a7;
+  --Dark-blue: #1f2f56;
 
   /* ## border-radius */
 
@@ -43,16 +43,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url("./assets/images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
   background-color: var(--Very-pale-blue);
 }
 
-.wave {
-  position: absolute;
-  z-index: 4;
-}
-
 my-app {
-  z-index: 6;
   margin: 4rem 1em;
 }
 
@@ -61,8 +58,13 @@ footer {
   color: #fff;
 }
 
+.attribution {
+  color: black;
+}
+
 @media screen and (max-width: 768px) {
-  .wave {
-    display: none;
+  body {
+    background-image: none;
+    background-color: var(--Very-pale-blue);
   }
 }

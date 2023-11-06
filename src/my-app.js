@@ -95,6 +95,11 @@ export class MyApp extends LitElement {
         .btn {
           min-height: 12vh;
         }
+
+        button {
+          cursor: pointer;
+        }
+
       }
 
     `
@@ -104,7 +109,7 @@ export class MyApp extends LitElement {
     return html `
       <img class="img" src="https://res.cloudinary.com/duzyd4ju7/image/upload/v1699246457/illustration-hero_hleeiu.svg" alt="illustration-hero" />
     
-      <div class="container">
+      <section class="container">
         <h1 class="title" >Order Summary</h1>
       
         <p class="info">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
@@ -122,7 +127,7 @@ export class MyApp extends LitElement {
           <button class="btn-payment" >Proceed to Payment</button>
           <button class="btn-cancel">Cancel Order</button>
         </div>
-      </div>
+      </section>
     `;
   }
 };
