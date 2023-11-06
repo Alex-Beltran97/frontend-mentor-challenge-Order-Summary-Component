@@ -102,7 +102,7 @@ export class MyApp extends LitElement {
 
   render() {
     return html `
-      <img class="img" src="./src/assets/images/illustration-hero.svg" alt="illustration-hero" />
+      <img class="img" src="https://res.cloudinary.com/duzyd4ju7/image/upload/v1699246457/illustration-hero_hleeiu.svg" alt="illustration-hero" />
     
       <div class="container">
         <h1 class="title" >Order Summary</h1>
