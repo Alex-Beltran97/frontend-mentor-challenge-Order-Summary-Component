@@ -86,6 +86,17 @@ export class MyApp extends LitElement {
         }
       }
 
+      @media screen and (min-width: 768px) {
+        :host {
+          width: 28%;
+          font-size: 14px;
+        }
+
+        .btn {
+          min-height: 12vh;
+        }
+      }
+
     `
   ];
 
