@@ -56,7 +56,7 @@ export class MyApp extends LitElement {
         display: flex;
         flex-direction: column;
         margin: 1rem;
-        min-height: 14vh;
+        min-height: 12vh;
         align-items: stretch;
         justify-content: space-between;
       }
@@ -74,6 +74,16 @@ export class MyApp extends LitElement {
         border: none;
         font-weight: 700;
         color: var(--Desaturated-blue);
+      }
+
+      @media (orientation: landscape) {
+        :host {
+          width: 48%;
+        }
+
+        .btn {
+          min-height: 20vh;
+        }
       }
 
     `
